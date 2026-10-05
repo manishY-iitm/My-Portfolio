@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manish Yadav | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Manish Yadav, a computer science student working on systems, software projects, and practical tools for real people.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#top" class="nameplate">Manish Yadav <span class="badge-year">2026</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="topnav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="intro">
+      <video class="bg-video" autoplay muted loop playsinline aria-label="Animated background video">
+        <source src="./hft-background-1791108111305.webm" type="video/webm">
+      </video>
+
+      <div class="container intro-inner">
+        <div class="intro-copy">
+          <h1 class="hero-title">I build software that is useful, a little practical, and usually a bit more interesting
+            than it needs to be.</h1>
+          <p class="hero-subtitle">Computer Science student • systems, tooling, and problem-solving</p>
+          <p class="hero-desc">
+            I’m Manish, a CS and AI student at Scaler School of Technology, pursuing a BS from IIT Madras. I learn by
+            building—exploring systems, Linux, and turning ideas into useful projects.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#work">See my work</a>
+            <a class="btn btn-secondary" href="mailto:manish.yadav@example.com">Email me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section story-block">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">About</span>
+          <h2>My background</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I got into programming by experimenting on my computer and figuring out how things worked. That curiosity
+              led me to systems programming, Linux, and writing C++ to build software that is efficient and easy to use.
+            </p>
+            <p>
+              I enjoy projects that combine problem-solving with practical use. I’ve worked on low-level programming and
+              tools that simplify everyday tasks, and I’m always looking for new ways to learn by building something
+              useful.
+            </p>
+            <p>
+              Outside of coding, I like reading, improving my setup, exploring new ideas, and watching movies.
+            </p>
+          </div>
+
+          <div class="about-details">
+            <div class="detail-card">
+              <h3>Interests</h3>
+              <ul>
+                <li>C++ </li>
+                <li>Linux and systems programming</li>
+                <li>Tooling and productivity software</li>
+                <li>Web projects with a real purpose</li>
+              </ul>
+            </div>
+            <div class="detail-card">
+              <h3>Currently</h3>
+              <p>Learning by building, improving my fundamentals, and exploring practical ways to write cleaner, faster
+                software.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work-block">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Work</span>
+          <h2>Projects and experiments</h2>
+        </div>
+
+        <div class="work-stack">
+          <article class="case">
+            <a class="case-photo" href="./lan_audio.jpg" target="_blank" rel="noopener noreferrer"
+              aria-label="Open the LAN Audio project image in a new tab">
+              <img class="case-image" src="./lan_audio.jpg"
+                alt="LAN Audio diagram showing a Windows PC streaming audio over a local network to a MacBook">
+            </a>
+            <div class="case-copy">
+              <h3>Lan Audio</h3>
+              <p>A Rust audio streamer that sends desktop audio from a Windows PC to a Mac over a local network. It uses
+                direct UDP streaming and native audio capture and playback, avoiding cloud services and browser-based
+                streaming.</p>
+              <a class="project-repo" href="https://github.com/manishY-iitm/lan-audio" target="_blank"
+                rel="noopener noreferrer">View repository on GitHub <span aria-hidden="true">&#8599;</span></a>
+            </div>
+          </article>
+
+          <article class="case">
+            <a class="case-photo" href="./wallpaper.jpg" target="_blank" rel="noopener noreferrer"
+              aria-label="Open the Linux Productivity Hub project image in a new tab">
+              <img class="case-image" src="./wallpaper.jpg"
+                alt="Productivity Hub dashboard with desktop widgets, task controls, a focus timer, and activity heatmap">
+            </a>
+            <div class="case-copy">
+              <h3>Linux Productivity Hub</h3>
+              <p>A local-first Linux desktop control center that combines task management, focus sessions, activity
+                tracking, and live wallpaper controls. Its data stays on the device in SQLite.</p>
+              <a class="project-repo" href="https://github.com/manishY-iitm/-productivity-wallpaper" target="_blank"
+                rel="noopener noreferrer">Open private repository <span aria-hidden="true">&#8599;</span></a>
+              <span class="repo-status">Private · access required</span>
+            </div>
+          </article>
+
+          <article class="case">
+            <a class="case-photo" href="./compass.jpg" target="_blank" rel="noopener noreferrer"
+              aria-label="Open the Student Compass project image in a new tab">
+              <img class="case-image" src="./compass.jpg"
+                alt="COMPASS learning navigator diagram showing discovery, diagnosis, personalized learning, and skill tracking">
+            </a>
+            <div class="case-copy">
+              <h3>Student Compass</h3>
+              <p>A technical learning navigator that helps students choose a direction, find skill gaps, and plan what
+                to learn next. It includes diagnostic assessments, guided practice, and an eight-dimension skills view.
+              </p>
+              <a class="project-repo" href="https://github.com/manishY-iitm/Student-Manager" target="_blank"
+                rel="noopener noreferrer">View repository on GitHub <span aria-hidden="true">&#8599;</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section now-block">
+      <div class="container">
+        <div class="right-now">
+          <p class="now-label">Right now</p>
+          <p>Learning the fundamentals more seriously, trying projects that feel useful, and getting comfortable with
+            the parts of software engineering that are easy to ignore when everything is moving fast.</p>
+          <p class="now-skills"><strong>Languages:</strong> Python, Java, C++, JavaScript &middot; <strong>Web:</strong>
+            HTML, CSS &middot; <strong>Tools:</strong> Git, Linux</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-label">Contact</p>
+        <h2>Let’s talk about code, ideas, and side projects.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/manishY-iitm" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/manish-yadav" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:manish.yadav@example.com">manish.yadav@example.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
